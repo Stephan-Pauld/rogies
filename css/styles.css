@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Dosis:wght@500&family=Francois+One&family=Prompt:ital,wght@1,300&display=swap");
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(217, 221, 255);
+}
+
+/*########## DIVS ##########*/
+
+.profile {
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: left;
+}
+
+div > p {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: right;
+}
+
+.fillings {
+  width: 50%;
+  margin: 40px auto 10px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #ebc71d;
+  position: relative;
+  height: 200px;
+}
+
+.bottom-container {
+  margin-top: 40px;
+  background-color: #f3da5f;
+  padding: 25px 0 10px 0;
+}
+
+/*########## Headings ##########*/
+
+.welcome {
+  text-transform: uppercase;
+  margin: 50px auto 100px auto;
+  font-size: 55px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  top: 55px;
+}
+
+h2 {
+  font-family: "Francois One", sans-serif;
+}
+
+hr {
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: #f0ac99;
+  width: 70px;
+  margin: 50px auto 50px auto;
+}
+
+/*########## IMGS ##########*/
+
+.top-cloud {
+  position: absolute;
+  right: 540px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+
+.flour {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.mixer {
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.dumpling {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.field {
+  position: absolute;
+  width: 75px;
+  bottom: 0px;
+  left: calc(50% - 39px);
+}
+
+.footer-link {
+  color: black;
+  margin: 0 10px 0 10px;
+}
+
+.footer-link:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn {
+  background: #F45D7E;
+  background-image: -webkit-linear-gradient(top, #F45D7E, #FBAABC);
+  background-image: -moz-linear-gradient(top, #F45D7E, #FBAABC);
+  background-image: -ms-linear-gradient(top, #F45D7E, #FBAABC);
+  background-image: -o-linear-gradient(top, #F45D7E, #FBAABC);
+  background-image: linear-gradient(to bottom, #F45D7E, #FBAABC);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #444343;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 4px 20px 4px 20px;
+  border-color-hover: ;
+  border-style-hover: solid;
+  border-width-hover: 1;
+  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  }
+
+  .btn:hover {
+    background: #F45D7E;
+    background-image: -webkit-linear-gradient(top, #F45D7E, #F9DFE5);
+    background-image: -moz-linear-gradient(top, #F45D7E, #F9DFE5);
+    background-image: -ms-linear-gradient(top, #F45D7E, #F9DFE5);
+    background-image: -o-linear-gradient(top, #F45D7E, #F9DFE5);
+    background-image: linear-gradient(to bottom, #F45D7E, #F9DFE5);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    }
+  
